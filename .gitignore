@@ -1,0 +1,14 @@
+# Installed files
+files.txt
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Editors / IDEs
+.idea/
+.vscode
