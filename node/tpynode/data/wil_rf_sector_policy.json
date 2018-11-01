@@ -1,0 +1,438 @@
+{
+	"QCA_ATTR_MAC_ADDR": {
+		"data_type": "NLA_UNSPEC",
+		"nla_type": 6,
+		"nla_len": 6
+	},
+
+	"QCA_ATTR_PAD": {
+		"data_type": "NLA_U8",
+		"nla_type": 31,
+		"nla_len": 1
+	},
+
+	"QCA_ATTR_TSF": {
+		"data_type": "NLA_U64",
+		"nla_type": 29,
+		"nla_len": 8
+	},
+
+	"QCA_ATTR_DMG_RF_SECTOR_INDEX": {
+		"data_type": "NLA_U16",
+		"nla_type": 30,
+		"nla_len": 2
+	},
+
+	"QCA_ATTR_DMG_RF_SECTOR_TYPE": {
+		"data_type": "NLA_U8",
+		"nla_type": 31,
+		"nla_len": 1
+	},
+
+	"QCA_ATTR_DMG_RF_MODULE_MASK": {
+		"data_type": "NLA_U32",
+		"nla_type": 32,
+		"nla_len": 4
+	},
+
+	"QCA_ATTR_DMG_RF_SECTOR_CFG": {
+		"data_type": "NLA_NESTED",
+		"nla_type": 33,
+		"nested": {
+
+			"QCA_ATTR_DMG_RF_SECTOR_CFG_MODULE_0": {
+				"data_type": "NLA_NESTED",
+				"nla_len": 56,
+				"nla_type": 0,
+				"nested": {
+					
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_MODULE_INDEX": {
+						"data_type": "NLA_U8",
+						"nla_type": 1,
+						"nla_len": 1
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE0": {
+						"data_type": "NLA_U32",
+						"nla_type": 2,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE1": {
+						"data_type": "NLA_U32",
+						"nla_type": 3,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE2": {
+						"data_type": "NLA_U32",
+						"nla_type": 4,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_PSH_HI": {
+						"data_type": "NLA_U32",
+						"nla_type": 5,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_PSH_LO": {
+						"data_type": "NLA_U32",
+						"nla_type": 6,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_DTYPE_X16": {
+						"data_type": "NLA_U32",
+						"nla_type": 7,
+						"nla_len": 4
+					}
+				}
+			},
+
+			"QCA_ATTR_DMG_RF_SECTOR_CFG_MODULE_1": {
+				"data_type": "NLA_NESTED",
+				"nla_len": 56,
+				"nla_type": 1,
+				"nested": {
+					
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_MODULE_INDEX": {
+						"data_type": "NLA_U8",
+						"nla_type": 1,
+						"nla_len": 1
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE0": {
+						"data_type": "NLA_U32",
+						"nla_type": 2,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE1": {
+						"data_type": "NLA_U32",
+						"nla_type": 3,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE2": {
+						"data_type": "NLA_U32",
+						"nla_type": 4,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_PSH_HI": {
+						"data_type": "NLA_U32",
+						"nla_type": 5,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_PSH_LO": {
+						"data_type": "NLA_U32",
+						"nla_type": 6,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_DTYPE_X16": {
+						"data_type": "NLA_U32",
+						"nla_type": 7,
+						"nla_len": 4
+					}
+				}
+			},
+			"QCA_ATTR_DMG_RF_SECTOR_CFG_MODULE_2": {
+				"data_type": "NLA_NESTED",
+				"nla_len": 56,
+				"nla_type": 2,
+				"nested": {
+					
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_MODULE_INDEX": {
+						"data_type": "NLA_U8",
+						"nla_type": 1,
+						"nla_len": 1
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE0": {
+						"data_type": "NLA_U32",
+						"nla_type": 2,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE1": {
+						"data_type": "NLA_U32",
+						"nla_type": 3,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE2": {
+						"data_type": "NLA_U32",
+						"nla_type": 4,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_PSH_HI": {
+						"data_type": "NLA_U32",
+						"nla_type": 5,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_PSH_LO": {
+						"data_type": "NLA_U32",
+						"nla_type": 6,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_DTYPE_X16": {
+						"data_type": "NLA_U32",
+						"nla_type": 7,
+						"nla_len": 4
+					}
+				}
+			},
+			"QCA_ATTR_DMG_RF_SECTOR_CFG_MODULE_3": {
+				"data_type": "NLA_NESTED",
+				"nla_len": 56,
+				"nla_type": 3,
+				"nested": {
+					
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_MODULE_INDEX": {
+						"data_type": "NLA_U8",
+						"nla_type": 1,
+						"nla_len": 1
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE0": {
+						"data_type": "NLA_U32",
+						"nla_type": 2,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE1": {
+						"data_type": "NLA_U32",
+						"nla_type": 3,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE2": {
+						"data_type": "NLA_U32",
+						"nla_type": 4,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_PSH_HI": {
+						"data_type": "NLA_U32",
+						"nla_type": 5,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_PSH_LO": {
+						"data_type": "NLA_U32",
+						"nla_type": 6,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_DTYPE_X16": {
+						"data_type": "NLA_U32",
+						"nla_type": 7,
+						"nla_len": 4
+					}
+				}
+			},
+			"QCA_ATTR_DMG_RF_SECTOR_CFG_MODULE_4": {
+				"data_type": "NLA_NESTED",
+				"nla_len": 56,
+				"nla_type": 4,
+				"nested": {
+					
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_MODULE_INDEX": {
+						"data_type": "NLA_U8",
+						"nla_type": 1,
+						"nla_len": 1
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE0": {
+						"data_type": "NLA_U32",
+						"nla_type": 2,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE1": {
+						"data_type": "NLA_U32",
+						"nla_type": 3,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE2": {
+						"data_type": "NLA_U32",
+						"nla_type": 4,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_PSH_HI": {
+						"data_type": "NLA_U32",
+						"nla_type": 5,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_PSH_LO": {
+						"data_type": "NLA_U32",
+						"nla_type": 6,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_DTYPE_X16": {
+						"data_type": "NLA_U32",
+						"nla_type": 7,
+						"nla_len": 4
+					}
+				}
+			},
+			"QCA_ATTR_DMG_RF_SECTOR_CFG_MODULE_5": {
+				"data_type": "NLA_NESTED",
+				"nla_len": 56,
+				"nla_type": 5,
+				"nested": {
+					
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_MODULE_INDEX": {
+						"data_type": "NLA_U8",
+						"nla_type": 1,
+						"nla_len": 1
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE0": {
+						"data_type": "NLA_U32",
+						"nla_type": 2,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE1": {
+						"data_type": "NLA_U32",
+						"nla_type": 3,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE2": {
+						"data_type": "NLA_U32",
+						"nla_type": 4,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_PSH_HI": {
+						"data_type": "NLA_U32",
+						"nla_type": 5,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_PSH_LO": {
+						"data_type": "NLA_U32",
+						"nla_type": 6,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_DTYPE_X16": {
+						"data_type": "NLA_U32",
+						"nla_type": 7,
+						"nla_len": 4
+					}
+				}
+			},
+			"QCA_ATTR_DMG_RF_SECTOR_CFG_MODULE_6": {
+				"data_type": "NLA_NESTED",
+				"nla_len": 56,
+				"nla_type": 6,
+				"nested": {
+					
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_MODULE_INDEX": {
+						"data_type": "NLA_U8",
+						"nla_type": 1,
+						"nla_len": 1
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE0": {
+						"data_type": "NLA_U32",
+						"nla_type": 2,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE1": {
+						"data_type": "NLA_U32",
+						"nla_type": 3,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE2": {
+						"data_type": "NLA_U32",
+						"nla_type": 4,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_PSH_HI": {
+						"data_type": "NLA_U32",
+						"nla_type": 5,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_PSH_LO": {
+						"data_type": "NLA_U32",
+						"nla_type": 6,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_DTYPE_X16": {
+						"data_type": "NLA_U32",
+						"nla_type": 7,
+						"nla_len": 4
+					}
+				}
+			},
+			"QCA_ATTR_DMG_RF_SECTOR_CFG_MODULE_7": {
+				"data_type": "NLA_NESTED",
+				"nla_len": 56,
+				"nla_type": 7,
+				"nested": {
+					
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_MODULE_INDEX": {
+						"data_type": "NLA_U8",
+						"nla_type": 1,
+						"nla_len": 1
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE0": {
+						"data_type": "NLA_U32",
+						"nla_type": 2,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE1": {
+						"data_type": "NLA_U32",
+						"nla_type": 3,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_ETYPE2": {
+						"data_type": "NLA_U32",
+						"nla_type": 4,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_PSH_HI": {
+						"data_type": "NLA_U32",
+						"nla_type": 5,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_PSH_LO": {
+						"data_type": "NLA_U32",
+						"nla_type": 6,
+						"nla_len": 4
+					},
+
+					"QCA_ATTR_DMG_RF_SECTOR_CFG_DTYPE_X16": {
+						"data_type": "NLA_U32",
+						"nla_type": 7,
+						"nla_len": 4
+					}
+				}
+			}
+		}
+	}
+}
